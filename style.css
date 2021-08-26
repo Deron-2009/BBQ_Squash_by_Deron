@@ -11,6 +11,7 @@ body{
     width:60%;
     margin: 0 auto;
     box-shadow:3px 3px 3px 3px gray;
+    border-radius: 20px;
 }
 .left{
     background-image: url(./dark.jpg);
@@ -21,11 +22,13 @@ body{
     flex-direction: column;
     justify-content: space-between;
     border-top:5px;
+    border-radius: 20px 0px 0px 20px;
 }
 .right{
     width:45%;
     padding:5px;
     border: 2px solid black;
+    border-radius: 0px 20px 20px 0px;
 }
 .right>h1{
     color:black;
